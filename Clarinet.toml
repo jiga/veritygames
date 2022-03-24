@@ -1,0 +1,19 @@
+[project]
+name = "veritygames"
+authors = ["j2p2"]
+description = "on-chain marketplace for making prediction stakes using Proof-of-Honesty consensus"
+telemetry = false
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.sip010-ft-trait]
+path = "contracts/sips/sip010-ft-trait.clar"
+depends_on = []
+
+[contracts.verity-token]
+path = "contracts/verity-token.clar"
+depends_on = ["sip010-ft-trait"]
+
+[contracts.veritygames]
+path = "contracts/veritygames.clar"
+depends_on = ["verity-token"]

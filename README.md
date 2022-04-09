@@ -2,6 +2,9 @@
 
 on-chain marketplace for making prediction stakes using Proof-of-Honesty consensus
 
+
+[![Devpost | verity.games](https://img.shields.io/badge/Devpost-Clarity%20Camp%20Cohort%202%20Hackathon%20Winner%20First%20Place!-yellowgreen)](https://devpost.com/software/verity-games)
+
 ## TL;DR Game theory whitepaper
  * Focus of today's blockchain based market is to achieve fully decentralized and trustless execution, but it typically requires a centralized trusted oracle which may have it's own side effects or trust issues. 
  * Instead of involving oracles, "verity.games" provides a smart contract based solution to simply incentivize honesty among players using VERITY coin rewards
